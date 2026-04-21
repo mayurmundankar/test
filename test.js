@@ -119,6 +119,8 @@ async function run() {
   
   console.log(`🔄 Fetching URL: ${testUrl}`);
 
+  console.log("Resolved Chrome Path:", puppeteerCore.executablePath());
+  
   const browser = await puppeteer.launch({
     headless: true, // ✅ Set to true for server execution
     executablePath: puppeteerCore.executablePath(),
