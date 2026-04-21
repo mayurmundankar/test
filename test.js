@@ -120,6 +120,7 @@ async function run() {
 
   const browser = await puppeteer.launch({
     headless: true, // ✅ Set to true for server execution
+    executablePath: '/opt/render/.cache/puppeteer/chrome/linux-147.0.7727.57/chrome-linux64/chrome',
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
