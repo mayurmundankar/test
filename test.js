@@ -115,7 +115,7 @@ async function run() {
   console.log('🚀 Starting Flipkart Direct Scrape Test...');
   
   // Replace this with the target Flipkart product URL
-  const testUrl = 'https://www.flipkart.com/apple-iphone-15-black-128-gb/p/itm6ac6485515ae4';
+  const testUrl = 'https://www.flipkart.com/urbangabru-hair-volumizing-powder/p/itm5ff18b4d6db56?pid=HSTHA649Z4JFPWMG';
   
   console.log(`🔄 Fetching URL: ${testUrl}`);
 
